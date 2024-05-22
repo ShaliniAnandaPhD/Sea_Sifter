@@ -58,7 +58,7 @@ It's been 4 months since the MongoDB hackathon, and Seasifter has evolved signif
 - **Satellite Imagery**: High-resolution images for mapping microplastic distribution.
 - **Crowdsourced Data**: Data collected from citizen scientists and environmental organizations.
 
-## 🤖 AI/ML Tools and Innovations
+## 🤖 AI/ML Tools Used 
 
 ### Natural Language Processing (NLP)
 - **Modules**: `research_synthesizer.py`, `entity_extraction.py`
