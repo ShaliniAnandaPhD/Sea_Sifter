@@ -173,10 +173,6 @@ The project dependencies are listed in `requirements.txt`, which includes core l
 - **beautifulsoup4**: For web scraping and data ingestion.
 - **requests**: For making HTTP requests.
 
----
-
-Feel free to further refine or customize any specific sections as needed!
-
 GitHub: https://lnkd.in/gPt322_K
 
 Next Steps:
