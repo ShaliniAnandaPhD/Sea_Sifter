@@ -1,0 +1,55 @@
+**Introduction to the Sea Sifter CLI Tool**
+
+Hello, and welcome to the exciting world of data analysis and ocean conservation! In this guide, we'll explore the Sea Sifter CLI tool and how it can help you process and analyze complex marine ecosystem data.
+
+**What is a CLI Tool?**
+
+Before we dive into the Sea Sifter CLI tool, let's understand what a CLI tool is. CLI stands for Command-Line Interface. It's a way to interact with a computer program using text commands instead of graphical user interfaces (like buttons and menus).
+
+CLI tools are powerful because they allow you to automate tasks, process large amounts of data, and perform complex operations efficiently. They are often used by developers, researchers, and data scientists to streamline their workflows.
+
+**The Sea Sifter CLI Tool**
+
+The Sea Sifter CLI tool is designed to help marine biologists, researchers, and conservationists analyze and predict marine ecosystem dynamics. It provides a set of commands that enable you to preprocess data, train machine learning models, and visualize the results.
+
+**Getting Started**
+
+To use the Sea Sifter CLI tool, you'll need to have Python installed on your computer. Don't worry if you're new to Python – the tool is designed to be beginner-friendly!
+
+First, download or clone the Sea Sifter project from the GitHub repository. Open your terminal (or command prompt on Windows) and navigate to the project directory.
+
+**Preparing Your Data**
+
+Before you can use the Sea Sifter CLI tool, you need to have your marine ecosystem data ready. The tool expects three CSV files:
+
+1. `marine_species.csv`: Contains information about various marine species populations over time.
+2. `environmental_factors.csv`: Includes data on environmental factors that affect marine ecosystems, such as water temperature, salinity, and pH levels.
+3. `climate_data.csv`: Provides historical climate data relevant to the marine ecosystem.
+
+Make sure your data files are formatted correctly and placed in the `data` directory of the Sea Sifter project.
+
+**Using the Sea Sifter CLI Tool**
+
+Now that you have your data ready, let's explore how to use the Sea Sifter CLI tool. Open your terminal and navigate to the project directory.
+
+1. **Preprocessing Data**:
+   To preprocess your data, run the following command:
+   ```
+   python CLI/sea_sifter_cli.py preprocess --species-file data/marine_species.csv --env-file data/environmental_factors.csv --climate-file data/climate_data.csv --output-file output/processed_data.csv
+   ```
+   This command takes your raw data files, performs advanced preprocessing steps (like merging datasets and handling missing values), and saves the preprocessed data to `output/processed_data.csv`.
+
+2. **Training a Machine Learning Model**:
+   Once your data is preprocessed, you can train a machine learning model to predict marine species populations. Run the following command:
+   ```
+   python CLI/sea_sifter_cli.py train --output-file output/processed_data.csv --model-file models/trained_model.pkl
+   ```
+   This command trains a random forest model using the preprocessed data and saves the trained model to `models/trained_model.pkl`.
+
+3. **Visualizing Predictions**:
+   To visualize the predicted marine species populations, use the following command:
+   ```
+   python CLI/sea_sifter_cli.py visualize --output-file output/processed_data.csv --model-file models/trained_model.pkl
+   ```
+   This command loads the preprocessed data and the trained model, generates predictions, and creates a visualization of the actual vs. predicted species populations over time. The visualization is saved to `output/visualizations/species_population_predictions.png`.
+
