@@ -53,10 +53,12 @@ It's been 4 months since the MongoDB hackathon, and Seasifter has evolved signif
 
 ## 🗂️ Data Sources
 
-- **Scientific Literature**: Research papers on microplastic pollution and remediation.
-- **Environmental Databases**: Datasets from environmental monitoring agencies.
-- **Satellite Imagery**: High-resolution images for mapping microplastic distribution.
-- **Crowdsourced Data**: Data collected from citizen scientists and environmental organizations.
+
+- [Environmental Databases](https://www.epa.gov/enviro/): Datasets from environmental monitoring agencies.
+- [Satellite Imagery](https://earthdata.nasa.gov/): High-resolution images for mapping microplastic distribution.
+
+
+These links will direct you to relevant sources for research on microplastic pollution and remediation.
 
 ## 🤖 AI/ML Tools Used 
 
